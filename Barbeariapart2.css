@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: none;
+}
+
+header {
+    padding: 42px;
+    background-color: #86b7ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-01{
+    background-color: azure;
+    background-image: url(img/Parte02.jpg);
+    padding: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
