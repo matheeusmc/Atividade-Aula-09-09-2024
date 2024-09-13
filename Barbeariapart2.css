@@ -7,17 +7,75 @@
 
 header {
     padding: 42px;
-    background-color: #86b7ff;
+    background-color: #a9aeb6;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .section-01{
-    background-color: azure;
+    background-color: rgb(147, 173, 173);
     background-image: url(img/Parte02.jpg);
     padding: 250px;
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+
+.section-table{
+    background-color: rgba(189, 174, 202, 0.466);
+}
+
+.div-inframe iframe {
+    padding-right: 50px;
+}
+
+.footer{
+    padding: 100px;
+    background-color: #f70a71;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.div-list-footer i{
+    font-size: 50px;
+    color: white;
+
+}
+
+.div-sociais i{
+    background-color: blueviolet;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.div-list-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    padding: 30px;
+    background-color: rgb(5, 15, 61);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div-list-footer i {
+    font-size: 50px;
+    color: white;
+}
+
+.div-sociais i {
+    background-color: rgb(158, 148, 148);
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.div-list-footer a {
+    text-decoration: none;
+    color: white;
 }
