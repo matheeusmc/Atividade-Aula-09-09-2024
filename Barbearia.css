@@ -47,6 +47,21 @@ header div ul li a {
     justify-content: space-evenly;
 }
 
+#section-03{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section-02{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.932) 8.33%, blue 100%);
+}
+
+
+#section-03{
+    background: linear-gradient(180deg, blue 8.33%, black 100%);
+}
+
 .section-01 button{
     color: #000000;
     display: flex;
@@ -83,4 +98,66 @@ footer h2 {
 
 footer img {
     width: 50px;
+}
+
+.div-cortes div:hover{
+    transition: 0.8s;
+    border-radius: 20px;
+}
+
+
+.div-cortes div{
+    width: 200px;
+    height: 300px;
+    background-color: #000000;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+
+}
+
+.div-cortes{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 35px;
+    margin-bottom: 30px;
+    
+    
+}
+
+.div-cortes .div-1{
+    background-image: url(img/Corte\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.div-cortes .div-2{
+    background-image: url(img/corte\ 2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.div-cortes .div-3{
+    background-image: url(img/corte\ 3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.div-cortes .div-4{
+    background-image: url(img/corte\ 4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.div-cortes .div-5{
+    background-image: url(img/corte\ 5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.div-cortes .div-6{
+    background-image: url(img/corte\ 6.jpg);
+    background-size: cover;
+    background-position: center;
 }

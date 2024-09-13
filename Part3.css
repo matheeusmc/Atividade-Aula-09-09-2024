@@ -5,6 +5,29 @@
     font-style: none;
 }
 
+header{
+    padding: 42px;
+    background-color: #8a0a0a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header div ul li a{
+    color: #000000;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+}
+.section-01{
+    background-color: #176ca6;
+    padding: 100px;
+    background: linear-gradient(180deg, blue 8.33%, black 100%);
+   }
+
+
+
 div.box {
     margin:0 auto;
     width:500px;
@@ -78,3 +101,4 @@ div.box .button{
     border-left:1px double #FF0033;
     border-right:1px double #FF0033;
 }
+
